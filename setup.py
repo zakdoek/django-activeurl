@@ -36,19 +36,11 @@ packages = [
 ]
 
 
-def long_description():
-    f = open('README.rst')
-    rst = f.read()
-    f.close()
-    return rst
-
-
 setup(
     name='django-activeurl',
     version='0.1.9',
     packages=packages,
     description=description,
-    long_description=long_description(),
     author='hellysmile',
     author_email='hellysmile@gmail.com',
     url='https://github.com/hellysmile/django-activeurl/',
